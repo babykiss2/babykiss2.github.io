@@ -63,6 +63,14 @@ h2{
     outline: none;
 }
 
+button {
+    background-color: white;
+    border: none;
+    font-family: "Helvetical";
+    color: grey;
+    border-radius: 5px;
+}
+
 
 img {
     position:absolute;
