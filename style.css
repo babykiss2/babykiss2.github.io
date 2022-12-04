@@ -8,8 +8,9 @@ body{
     color: white;
 }
 
-#todo-input{
-    color: grey;
+input::placeholder {
+    color: white;
+    font-family: "Helvetical";
 }
 
 h1{
@@ -51,6 +52,15 @@ h2{
 
 .violet{
     color: violet;
+}
+
+.input-style {
+    color: white;
+    background: transparent;
+    border-style:none;
+    border-bottom:solid 1px white;
+    border-collapse:collapse;
+    outline: none;
 }
 
 
