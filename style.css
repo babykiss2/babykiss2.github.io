@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "HelveticaL";
+    src: url("./font/font.woff2") format("woff");
+}
+
+body{
+    font-family: "Helvetical";
+    color: white;
+}
+
+#todo-input{
+    color: grey;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+#weather{
+    font-size: 15px;
+}
+
+#background{
+    font-size: 17px;
+}
+
+.pink{
+    color:pink;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color: skyblue;
+}
+
+.violet{
+    color: violet;
+}
+
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+
