@@ -79,11 +79,19 @@ h2{
 }
 
 button {
-    background-color: white;
-    border: none;
+    background-color: transparent;
+    border: 1px solid white;
     font-family: "Helvetical";
-    color: grey;
+    color: white;
     border-radius: 5px;
+}
+
+button:focus{
+    border: 2px solid white;
+}
+
+button:hover{
+    border: 2px solid white;
 }
 
 
