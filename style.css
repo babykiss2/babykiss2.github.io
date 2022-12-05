@@ -75,6 +75,7 @@ h2{
     outline: none;
     border: none;
     color: grey;
+    border-radius: 5px;
 }
 
 button {
